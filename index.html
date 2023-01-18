@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <style>
+    body {         
+      background-color: hsl(0, 15%, 94%);
+    }
+
+    .content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 80vh;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .content > div {
+        background-color: hsl(0, 0%, 97%);
+        width: 37%;
+        height: 75%;
+    }
+
+    .first { }
+    .second{ }
+    .third { }
+
+    .price {display: flex; flex-direction: row; align-items: center;}
+    .price1 { }
+    .price2 {text-decoration: line-through; margin-left: 5%;}
+    button {
+    background-color: hsl(158, 36%, 37%);}
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 35px;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    
+
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div>
+      <img src="images\image-product-desktop.jpg" style="max-width:100%; max-height: 100%;">
+    </div>
+    <div>
+      <p class="first">Perfume</p>
+  
+      <p class="second"><b>Gabrielle<br> Essence Eau<br> De Parfum </b></p>
+  
+      <p class="third">A floral, solar and voluptuous<br> interpretation composed by<br> Olivier Polge, 
+        Perfumer-Creator<br> for the House of CHANEL.</p>
+      
+        <div class="price">
+          <p class="price1">$149.99</p>
+          <p class="price2">$169.99</p>
+        </div>
+
+      <button>Add to Cart</button>
+    </div>
+
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/amandasuzzanne">Amanda Suzzanne</a>.
+  </div>
+</body>
+</html>
